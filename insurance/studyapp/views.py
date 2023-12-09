@@ -18,3 +18,8 @@ def  goal(request):
 
 def  userpage(request):
     return HttpResponse('user  information ')
+
+
+
+def   courses(request):
+    return   HttpResponse("this is the  page   for the courses  of  student ")
