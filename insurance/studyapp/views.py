@@ -13,9 +13,7 @@ def  about(request):
 
 
 
-def  goal(request):
-    #return   HttpResponse('our   goal  is to build   system  that   helps you  to  learn  efficiently  in  pleasurable way ')
-    return  render(request,    "goal.html")
+
 
 
 def  userpage(request):
