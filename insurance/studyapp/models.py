@@ -23,3 +23,4 @@ class   Teacher(models.Model):
 
 class  Subject(models.Model):
     name = models.CharField(max_length=100)
+    enrolledStudents   =  models.IntegerField(default=0)
