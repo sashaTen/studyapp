@@ -2,3 +2,4 @@ resources   :
 1   github  . try   clone  it  and   work  on   it 
 2   documentation 
 3   try to    tweak  the  evry   step  of the project .
+4    31.36    is  time 
