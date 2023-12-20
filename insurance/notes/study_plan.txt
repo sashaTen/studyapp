@@ -20,6 +20,7 @@ basics  of  cs   with     harvard  and networking  /  os  /  archtechture
 more   detailed  plan   : 
 1  basics   of   django https://www.geeksforgeeks.org/e-commerce-website-using-django/
 2  simple   llm  in   colab   project 
+2  llms for developers хабр 
 3  language  model    in   django 
 4   learn   mlops   and   devops   a  little  bit and   keep  building   complexity   of   app 
 learn   on the    go the tools  and   concepts    for   making  app    bigger.
