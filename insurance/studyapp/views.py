@@ -23,3 +23,9 @@ def  userpage(request):
 
 def   courses(request):
     return   render(request  ,   "courses.html")
+
+
+
+
+def FAQ(request):
+    return   render(request ,    "faq.html")
