@@ -1,4 +1,4 @@
-maybe   i   lack    common   software   developer   skills   
+tmaybe   i   lack    common   software   developer   skills   
 and  i  need to   be   familiar  with   common   topics   from   software  engineering 
 everything    must   be  learned   on   demand   and also  in  active   form 
 .....
@@ -25,5 +25,13 @@ more   detailed  plan   :
 4   learn   mlops   and   devops   a  little  bit and   keep  building   complexity   of   app 
 learn   on the    go the tools  and   concepts    for   making  app    bigger.
 5   harvard cs50   and   keep   specializing in the  research related to AI 
+.......
+https://arxiv.org/pdf/2307.06435.pdf
 
+https://www.analyticsvidhya.com/blog/2023/12/implement-huggingface-models-using-langchain/
 
+https://youtu.be/pAON8btiDu4?si=TsgBwZjoTyGonGMZ
+
+Слушай ревью и также медитации пробуй для фокса
+
+Фокуса
