@@ -33,6 +33,9 @@ and knowledge distillation as two avenues for these small language models
 
 /////////////////////////////Specializing Smaller Language Models towards Multi-Step Reasoning
 
+Our objective is to study what it takes to improve
+smaller models’ chain-of-thought math reasoning
+
 https://arxiv.org/pdf/2301.12726.pdf
 
 The surprising ability of Large Language Models
@@ -44,6 +47,14 @@ We show that such
 abilities can, in fact, be distilled down from GPT3.5 (≥ 175B) to T5 variants (≤ 11B).
 
 In summary, the proposal suggests that while large models have broad capabilities, small models can outperform them in specific tasks if their limited capacity is strategically concentrated on that particular task. The tradeoff involves sacrificing some generic abilities for improved performance in the targeted area. The experiment focuses on multi-step math reasoning to demonstrate and test this concept.
+
+For the generic ability, we use BigBench Hard
+
+CoT Reasoning on Maths Word Problems
+
+
+math datasets (MultiArith, ASDiv, and SVAMP GSM8K
+
 
 
 
@@ -65,16 +76,30 @@ Conclusions:
 The study deepens our understanding of how smaller models can excel in specific tasks when tailored through specialization.
 The hope is that these findings can guide the development of strong, specialized smaller models accessible to a wider audience of researchers and practitioners.
 
+we use distribution
+matching as our training objective  that  compare   distribution  matches  of  teacher  and  student  models .
+
+our specialized
+11B model performance improves to be on par with LaMDA
+137B and slightly below PaLM 60B, showing it is indeed
+possible to make smaller models expert for the particular
+math reasoning task. The price is also very clear: all specialized models suffer from performance drop on BigBench,
+specifically, they lose all the CoT prompting abilities on
+BBH, and a large portion of AO prompting performance.
 
 
+We save one checkpoint every 10K instances/ updates, then
+evaluate the checkpoints on (1). in-distribution math performance (GSM8K); (2). out-of-distribution math performance
+(MultiArith, ASDiv, and SVAMP); (3). generic answeronly prompting performance (BBH-AO); (4). generic chainof-thought prompting performance (BBH-CoT)
 
 
+the model’s ability
+tradeoff not only happens on math v.s. generic ability, but
+also happens on zero-shot v.s. in-context learning ability.
 
+based on the statement "In-context data preserves zero-shot ability; Zero-shot data loses in-context ability," it suggests that using in-context data is recommended over zero-shot data. Here's the reasoning
 
-
-
-
-research   directions  :
+///////////////research   directions  :
 few  shot   learning .
 in  context  learning .
 promtp   engineering.
@@ -88,8 +113,31 @@ just   do the     project    and   learn  how to   make  new  method  for the im
 find  very  small   model  like  t5 220m . or less .  
 for   exmaple   find  the   way to    imporove the  reasoning  or  somethiing   of  sml with   hybrid   approach . 
 extreme   distilation.  when   fine   tuned  model  llm  distils  to  sml. 
+maybe  try to reserch  several  ideas  in slm / llm.  so   later   one  of  them   will  succed. 
+maybe  what  can  improve llm  also  can  improve  slm   ?  like  reasoning  aspect  .  need to experement to find combo  ..
+you  may   choose  the   hybrib  method of  cot  solutions . 
+here's a list of potential research contributions without detailed explanations:
 
-how  to    : 
+Novel Hybrid Method
+New Framework
+Efficiency
+other fields  insights  like    bio  or   chemistry.
+Ethical and Fair AI
+Explainable AI (XAI)
+New Evaluation Metrics
+Security in AI
+Human-in-the-Loop Systems
+Global Challenge
+
+
+also   you   can  take the  problem  of specific  paper and use   hybrid new  approach  or any approach that  solves better  .
+////////////////////////////
+
+
+
+
+
+///////////////////how  to    : 
 you  need   to    prove  imperically  the  validity.   the  more  proves  the  better .
 
 researchers  suggest increasing CoT performance for smaller models can be challenging. At the current
@@ -101,7 +149,7 @@ the paper discusses the challenge of making smaller language models perform comp
 how  to   make   specialized   language  models   .   
 
 
-3. Specializing Multi-Step Reasoning  3/10   is   last  section  of  paper.   
+    
 
 
 
