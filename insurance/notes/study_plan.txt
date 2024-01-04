@@ -35,3 +35,347 @@ https://youtu.be/pAON8btiDu4?si=TsgBwZjoTyGonGMZ
 Слушай ревью и также медитации пробуй для фокса
 
 Фокуса
+
+
+
+
+
+
+
+
+.Focus on consistency.  long term and    short term goals.
+.Believe  you can do all you wish.
+.Discipline like training pushups for          goals.
+.Just do. Dont learn how to do.
+.Patience and risk.
+.главное это начать а дальше легче.
+
+.analytics vidhya and gknuggets.
+.papers read  . 
+...............
+
+How to generate insurtech ideas for startup. Promot it in bard ...........
+
+... full stack , +react русский блоггкр , llm, mlops for llm. 
+...software engineering/ scalable  code. 
+. Cs50 basics /web/ai
+. Entrepreneurship, finance,  sales, management,marketing.  
+.online food making.
+.high margin business.
+.insurtech. 
+.how to learn  language with llm.
+.Mckensy report
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChatGPT 3.5
+
+You
+
+What should i know in order to smoothly making my app bigger 
+
+ChatGPT
+
+ChatGPT
+
+Scaling your app smoothly involves considerations like architecture, code organization, performance optimization, and user experience. Ensure:
+
+Modular Code: Organize your code into modules, making it easier to manage and extend.
+
+Scalable Architecture: Choose a scalable architecture (e.g., MVC, MVVM) that allows for easy integration of new features.
+
+Database Design: Design a scalable database schema and use indexing wisely for efficient data retrieval.
+
+Performance Optimization: Regularly optimize your code for performance, focusing on critical paths and resource-intensive operations.
+
+API Design: If your app relies on external APIs, design your interactions efficiently, handling errors gracefully, and caching where appropriate.
+
+Responsive UI: Ensure your user interface is designed to handle various screen sizes and resolutions, considering both mobile and tablet devices.
+
+Automated Testing: Implement automated testing to catch regressions and ensure new features don't break existing functionality.
+
+Version Control: Use version control systems like Git to track changes and manage collaborative development.
+
+Documentation: Maintain thorough documentation for your codebase, APIs, and overall system architecture.
+
+Security Measures: Regularly audit and update your security measures to protect against potential vulnerabilities as your app expands.
+
+Monitoring and Analytics: Implement monitoring tools to track app performance, user behavior, and potential issues.
+
+User Feedback: Act on user feedback to improve the user experience and address any issues promptly.
+
+Scalable Infrastructure: Choose a scalable hosting solution and infrastructure that can handle increased traffic and data loads.
+
+Continuous Integration/Continuous Deployment (CI/CD): Set up CI/CD pipelines to automate the testing and deployment process, reducing the risk of human error.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+...........focus on research ............
+......начало это уже половина дела...
+......habits key. Even of you little but often
+.......experements are key to success...
+.......Believe  you can start startup..
+......constant learning  of other examples    and experiments for backend and research....
+.......read and retell ....
+.......read technopedia/ Marktechpost/ aitimes /youtube about llms/ gknuggets
+.......papers.  
+.......cs50/web/ai / mlops/clean code/
+Software engineering/clean code/dev tools ....
+.Focus on consistency.  LSTM goals.
+.Discipline like training pushups for          goals.
+.Just do. Dont learn how to do.
+.Patience and risk.
+
+
+
+
+
+
+
+... go then to django docs and learn all in detail. 
+
+..study prerequisites for backend concepts. 
+
+
+....тг ссылки
+
+...survey read
+
+
+
+
+
+
+
+Каждый день одна paper
+
+https://arxiv.org/pdf/2307.06435.pdf
+
+https://www.analyticsvidhya.com/blog/2023/12/implement-huggingface-models-using-langchain/
+
+https://youtu.be/pAON8btiDu4?si=TsgBwZjoTyGonGMZ
+
+Слушай ревью и также медитации пробуй для фокса
+
+Фокуса
+
+📚500 Most Important Data Science Interview Questions and Answers (2018)
+
+✍️Автор: Vamsee Puligadda
+
+Search  also articles and Marktechpost 
+
+
+......
+
+
+https://youtube.com/@dsba2979?si=LMLbBS_33VlWLVrD
+
+
+
+
+https://youtu.be/nyiJ3WHNrB4?si=yneVtYOmCS6yVqAD
+
+
+
+
+
+
+
+Complete Data Engineering with Projects Series
+
+📓 Book
+
+@datascienceiot
+
+📚SQL for Data Analysis (2021)
+
+✍️Автор: Cathy Tanimura
+
+
+....
+Долг эдик
+
+
+
+....
+
+
+Читай paper и потом смотри обзор на корейском 
+
+https://youtu.be/Eyk-aUt0bGA?si=gjUKY4nnTZylvtOV
+...
+
+
+
+
+https://habr.com/ru/articles/783314/
+.....
+
+https://youtu.be/fda8xyecqp0?si=CIOFTYCwzpOVg7Pr
+
+
+......
+Opensource tools like 
+Langchain hugging face 
+Cloud providers
+
+.......
+Зп наличка 
+Эдик 
+......
+Microservice or how to make with ai software 
+
+.....
+Let chatgpt teach you clean code and review 
+
+
+
+
+  ....  
+
+
+https://www.analyticsvidhya.com/blog/2023/05/from-novice-to-pro-the-epic-journey-of-mastering-generative-ai/
+
+
+.......
+
+https://www.analyticsvidhya.com/blog/2023/07/creating-a-chatbot-with-falconai-langchain-and-chainlit/#h-let-s-run-the-code
+
+
+........
+https://dev.to/eteimz/running-large-language-models-on-the-cpu-3a46
+.......
+
+https://github.com/PetroIvaniuk/llms-tools
+.......
+
+
+https://www.kdnuggets.com/5-tools-to-help-build-your-llm-apps
+
+
+.....
+
+https://towardsdatascience.com/9-effective-techniques-to-boost-retrieval-augmented-generation-rag-systems-210ace375049
+.....
+Free copilot 
+
+
+....ana akana. 
+How to delete an specific old commit without deleting the changes in the code (i.e change the git story basically)
+
+Test it before applying
+
+...
+
+
+
+
+https://axiomalpha.com/8-tools-to-build-apps-with-large-language-models-llms/
+
+
+
+.....
+
+https://www.mercity.ai/blog-post/guide-to-integrating-tools-and-apis-with-language-models
+
+
+
+......
+ Bard was just updated.  See update
+
+close
+
+Conversation with Bard
+
+Llm projects with very low computer resources. CPU 3 Core 3.5g of RAM. What free options exist 
+
+edit
+
+View other drafts
+
+volume_up
+
+With limited resources like a 3-core CPU and 3.5GB of RAM, running large or complex language models is definitely challenging. However, there are still several free options you can explore for LLM projects:
+
+Small and Efficient LLMs:
+
+Jurassic-1 Jumbo: This 178B parameter model from Google AI offers surprisingly good performance even on low-power devices. It can be fine-tuned for specific tasks and requires minimal resources.TinyBERT: This smaller version of BERT is efficient and can be used for various tasks like text classification, question answering, and sentiment analysis.MobileBERT: Another lightweight BERT model specifically designed for mobile devices. It offers good accuracy with minimal resource requirements.DistilBERT: This model is trained on a subset of the BERT training data, making it smaller and faster than the original model while still retaining good performance.
+
+Alternatives to LLMs:
+
+Conditional Random Fields (CRFs): These sequence models are often used for tasks like named entity recognition and part-of-speech tagging. They require less computational power than LLMs and can be effective for specific tasks.N-gram models: These simpler models predict the next word in a sequence based on the n-1 preceding words. They are not as powerful as LLMs but can be surprisingly effective for certain tasks, especially with smaller datasets.Rule-based systems: For specific tasks where you have clear rules and patterns, you can build rule-based systems that don't require machine learning at all. These can be quite efficient and effective for specific applications.
+
+Free Resources for Training and Inference:
+
+Google Colab: This free platform offers access to GPUs and TPUs for running machine learning code. While resources are limited and shared, you can potentially train and run small models on Colab.Hugging Face Hub: This platform provides pre-trained models and datasets for various NLP tasks. You can find small and efficient models to fine-tune and run on your limited resources.Papers with Code: This website aggregates research papers with publicly available code. You can search for NLP projects specifically designed for low-resource settings and use their code as a starting point.
+Model Quantization: Techniques like quantization can compress LLM models, making them run faster and with less memory. Look for pre-quantized models or explore quantization tools to squeeze more performance out of your existing options.
+.......
+
+
+https://youtu.be/ZCR4WML160g?si=-DM1qrmLkKYMsf-T
+
+
+.......
+https://youtu.be/Jqenjqk4DcI?si=ZeAwZUcbJWcFSZtv
+......
+
+Marktechpost is great source of inspiration  of different hybrid methods and frameworks for research like 
+lora-moe . Read it often . 
+
+
+.......
+Сделай маленький проэкт касательно языковых моделей и потом основываясь на этом также 
+Найди проблемы или области и предложи методы которыми вдохновение из Марк тех поста
+
+....
+
+https://youtu.be/Kn7SX2Mx_Jk?si=W-IOShNGlA_FU8Ps
+
+
+......
+
+
+
+
+
+
+
+
+
+
+
+
+
+
