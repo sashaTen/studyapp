@@ -212,7 +212,160 @@ gpt-3  variations   from 125m to 175b params   and  pet  and   ipet  models
 on  boolq cb and others .  overall   8  benchmark  types of   superglue  
 and  on   average  those    small   models   outperfomed  the  gpt-3.
 
-    
+
+
+...........
+
+/////////////////////PAPERS : 
+"Attention Is All You Need" (Vaswani et al., 2017)
+"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding" (Devlin et al., 2018)
+"ALBERT: A Lite BERT Pretraining Approach" (Lan et al., 2019)
+"TinyBERT: Distilling Knowledge for Light-Weight Language Models" (Sun et al., 2020)
+"Reformer: The Efficient Transformer" (Kitaev et al., 2020)
+"Longformer: The Long-Distance Transformer" (Beltamy et al., 2020)
+"T5: Text-to-Text Transfer Transformer" (Raffel et al., 2020)
+"TinyML for Text: A Survey of Mobile and Embedded Natural Language Processing" (Molnar et al., 2021)
+"BioBERT: A Pre-trained Bidirectional Encoder Representation from Biomedical Text" (Lee et al., 2019)
+"FinBERT: FinancialBERT for Financial Sentiment Analysis" (Wu et al., 2020)
+"RoBERTa: A Robustly Optimized BERT Pretraining Approach" (Liu et al., 2019)
+/////////////////////PAPER :
+MobileBERT: a Compact Task-Agnostic BERT
+for Resource-Limited Devices
+Zhiqing Sun1∗
+, Hongkun Yu2
+, Xiaodan Song2
+, Renjie Liu2
+, Yiming Yang1
+, Denny Zhou2
+
+/////////////////////CONTEXTS :
+challenges associated with deploying large and resource-intensive pre-trained language models
+
+
+
+
+
+/////////////////////METHODS :
+MobileBERT as a solution to compress and accelerate the BERT.
+task-agnostic model.
+
+
+*******************************************
+*******************************************
+/////////////////////PAPER : 
+/////////////////////CONTEXTS :
+
+
+/////////////////////METHODS :
+
+*******************************************
+*******************************************
+/////////////////////PAPER : 
+/////////////////////CONTEXTS :
+
+
+/////////////////////METHODS :
+
+*******************************************
+*******************************************
+/////////////////////PAPER : 
+/////////////////////CONTEXTS :
+
+
+/////////////////////METHODS :
+
+*******************************************
+*******************************************
+/////////////////////PAPER : 
+/////////////////////CONTEXTS :
+
+
+/////////////////////METHODS :
+
+*******************************************
+*******************************************
+BERT    : 
+1    the   nlp    in   llm  course  
+2    bert fine tuning  project  kaggle  
+3    tiny  bert    project  kaggle
+4    experementing 
+5    api   integration 
+6    mlops    and   SE 
+7    paper   and  startup   and   job 
+
+
+in bert    you  add    one   layer   and then   you  do   downstream  tasks.
+there  two   stages   like   pre- training  and  fine-tuning.
+we  only  can to   finetune  it  because   they  are  ready.   
+bert   is   arcitechture  that  cinsists  from the  decoders .
+
+
+..
+
+transformers : 
+rnn has  short  memory. 
+they  are  not   parrelilzed.
+so  for that  lstm .
+but they  are long to train .
+trnasformers   for that  .
+rely  on attention.
+attention : 
+for the focus  on   important .
+trans:
+6  encoders   and  6  decoders . 
+each   encoder  has  self  attention  layer and feed  forward nn.
+each   decoder  has 2  masked multi head  attention   and   one   nn.
+we feed  all   the  words   of input  at   the  same  time .   
+each  token  is  compared  to the  other   and then   passed into  nn.
+proccess  of  input   =   embed   .  positioning. 
+because we  input   all  words   at same time it  does  not  know  the   position
+so   thats  why   we   need   positional  encodings .
+norm  layers   are   .
+
+each   word  has    query  key and   value .   
+after   complex  calculations   each  word gets  self attention  score.
+then   we  add the   positional encodings 
+...
+how   it   all  works   together   ? :
+you   embedd   words  with   q , k , v  and   positional  embedding
+then    you   pass in  encoders  and get the   output   .  
+output  goes  to  decoder   .  and then    goes  to    softmax  and then   outputs .
+
+
+
+/////////////slms  in  finance   or  other   domains   bio , med , finance ,  e-commerce : 
+Financial corporations also deploy SLMs for needs around analyzing earnings statements, asset valuations, risk modeling and more.
+try to   build  it  and  prove  that   methods   is  valid.
+-can  we  teach the  slm to be good   financial  reasoner? or bio  or   any  . 
+
+
+///////////////////Orca 2: Teaching Small Language Models How to Reason:
+It teaches smaller models various reasoning techniques instead of just copying bigger ones.
+becase   simple   instruction  tuning  is  just mimicking  models. 
+the   dataset  is  like the  triplet   = ['input prompt' ,  'instruction to solution' , 'reasoning'].
+ "Cautious Reasoning" concept for Orca 2:
+
+Identifying different types of tasks (simple, complex, etc.).
+Choosing the best reasoning technique for each task.
+Teaching the model how to apply the technique with less specific guidance.
+Encouraging the model to think independently and choose the right approach on its own.
+Prompt Erasing and how it helps Orca 2 develop independent reasoning skills.
+instructions guide them through different reasoning strategies for various tasks.
+prompts Erasing gradually removes these specific instructions.
+This challenges the model to rely on its own reasoning abilities.
+It doesn't just blindly follow instructions but can evaluate the situation, think strategically, and apply the most appropriate technique for each task, even without explicit guidance.
+dataset comprises four main sources:
+1 flan with instructions in this dataset are replaced with:
+You are Orca, an AI language model created by Microsoft. You are a cautious assistant. You carefully follow instructions. You are helpful and harmless and you follow ethical guidelines and promote positive behavior.
+2 Few-Shot Data: To help the model learn from few-shot demonstrations, a dataset of 55K samples is created by reformatting data from the Orca 1 dataset.
+
+3 math =160K math problems sourced from various datasets like Deepmind Math, GSM8K, AquaRat, MATH, AMPS, FeasibilityQA, NumGLUE, AddSub, GenArith, and Algebra.
+
+4 Fully Synthetic Data: This includes 2000 synthetically created Doctor-Patient Conversations using GPT-4, followed by instructing the model to summarize these conversations in four sections. Two different prompts are used to guide the model, focusing on avoiding omissions or fabrications, thereby assessing the learning of specialized skills.
+
+
+
+The evaluation of Orca 2 models covers various aspects of language model performance, including reasoning, language understanding, text completion, conversational abilities, grounding, and task-specific data handling.
 
 
 
