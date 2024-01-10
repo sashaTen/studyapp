@@ -1,3 +1,24 @@
+
+1 project (classification/ner/qa).
+2 choose aspect(efficiency)and benchmarks.
+3 separate literature review, gain knowledge,  project (classification), aspect , llm/slm, domain anout the proccess of project. 
+4 then generate hypotheses like combo , system, framework, methodology  ,hybrid and etc.
+5 start experements. 
+6 validate research. 
+7  django integration  and  make APIs. 
+
+
+.........
+
+
+
+
+
+
+
+
+
+
 global  context    :    or   current  possible  research   plan   : 
 
 
