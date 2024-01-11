@@ -316,5 +316,90 @@ Does it address real-world needs or challenges? Consider the potential applicati
 Remember, these criteria are not a strict checklist and their importance may vary depending on the specific journal and research area. However, addressing these points will significantly strengthen your manuscript and increase its chances of publication in top NLP journals.
 
 
+impoving the   sml   qa  ability :  
 
+Limited resources: Many applications and systems don't have the computing power or resources to run large LLMs. Even with the rise of cloud computing, cost and efficiency remain concerns.
+Accessibility: Small LLMs are often more accessible due to their lower resource requirements. This makes them feasible for a wider range of developers and applications, democratizing access to NLP technology.
+Specific tasks: In some scenarios, small LLMs might be sufficient for handling specific, focused tasks. For example, a chatbot for a local restaurant might not need the capabilities of a massive model to answer basic questions about the menu.
+Transfer learning: Advances in small LLM performance can often be transferred to larger models, accelerating the overall progress in the field.
+Efficiency and interpretability: Smaller models can sometimes be more efficient in terms of training time and resource consumption, and may be easier to interpret and debug. This can be valuable for debugging errors and understanding model reasoning.
+Potential research directions:
+
+Fine-tuning: Techniques for effectively fine-tuning smaller LLMs on specific question-answering datasets or tasks.
+Knowledge integration: Incorporating external knowledge sources like knowledge graphs or factual databases to enhance their knowledge base.
+Model architecture improvements: Exploring novel architectures or optimization techniques specifically designed for smaller LLMs to improve their question-answering abilities.
+Prompting and dialogue management: Utilizing effective prompting techniques and dialogue management strategies to guide the smaller LLMs towards accurate answers.
+Hybrid approaches: Combining smaller LLMs with other techniques like reasoning modules or retrieval systems to achieve higher performance.
+Challenges to consider:
+
+Limited capacity: Smaller LLMs inherently have less capacity for complex reasoning and information processing compared to larger models.
+Data limitations: Training smaller LLMs often requires careful data selection and augmentation to compensate for the limited training data compared to larger models.
+Overfitting: Fine-tuning on specific datasets can lead to overfitting and poor performance on unseen questions.
+Overall, research on improving small LLM question-answering ability is a promising and vital area
+
+
+https://www.kaggle.com/code/danielwillgeorge/cobert-an-approach-for-question-answering
+https://colab.research.google.com/github/spark-ming/albert-qa-demo/blob/master/Question_Answering_with_ALBERT.ipynb
+https://www.kaggle.com/code/vaishvik25/albert-train-infer
+https://www.kaggle.com/code/arunmohan003/question-answering-using-bert  -     first   build   that   
+https://www.kaggle.com/code/rowhitswami/question-answering-using-transformers-albert 
+
+
+GPT4All
+A free-to-use, locally running, privacy-aware chatbot. No GPU or internet required.
+
+
+
+
+keywords    :  qa   ,  ai   ,   slms  
+SLM's  : https://arxiv.org/pdf/2109.12662.pdf
+In this paper, we have proposed a novel combination of an interpolated KD and AL for
+QA systems, which is comparable to state-of-the-art models in this task. Our experiments
+showed that our model while having a fewer number of parameters, outperformed both
+DistilBERT and TinyBERT with four layers and was comparable with these models with
+six layers. 
+
+
+QA-GNN: Reasoning with Language Models and Knowledge Graphs
+for Question Answering  
+https://arxiv.org/pdf/2104.06378.pdf
+QA   SYSTEMS  AI   :  
+QA Dataset Explosion: A Taxonomy of NLP Resources for Question Answering
+and Reading Comprehension
+
+https://arxiv.org/pdf/2107.12708.pdf
+
+QA   aspect  : 
+
+QA  type :
+
+Most QA systems were designed to empower or improve mental health(puspose): 
+
+QA DOMAIN: 
+**************
+Retrieving and Reading : A Comprehensive
+Survey on Open-domain Question Answering
+
+architecture named “Retriever-Reader”
+
+QA landscape can roughly be divided into
+
+two parts: textual QA and Knowledge Base (KB)-QA
+
+pipeline: consisting of three stages, i.e. Question Analysis, Document
+Retrieval and Answer Extraction
+
+ColBERT-QA first encodes the question and document independently with two BERT encoders
+
+
+
+**************
+
+methods : knowledge graph-based systems
+
+general   purpose  fine tuning  and then  downstreeam   in  domain ..
+good  nlu  impoves the  qa ..
+intrcution  tuned   bert  for   qa ..
+ai   that  analyses  text  and  make  recoomendation  for   firendship  and dating..
+sytem of     two  slms   for   qa     ..
 
