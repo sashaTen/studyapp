@@ -359,7 +359,15 @@ showed that our model while having a fewer number of parameters, outperformed bo
 DistilBERT and TinyBERT with four layers and was comparable with these models with
 six layers. 
 
+........
+1   small  langugae   models and  question   answering  : 
 
+Improving Small Language Models on PubMedQA via
+Generative Data Augmentation : 
+
+improving SLMs in the medical domain using LLM-based generative data
+augmentation. 
+experiments conducted on the PubMedQA
 SLM, with under 1.6 billion parameters, outperforms
 the few-shot GPT-4 on the PubMedQA dataset with Accuracy and  Macro-F1..
 https://github.com/zguo0525/Dr.LLaMA  
@@ -388,6 +396,8 @@ applying generative data augmentation techniques.
 
 
 /////////////
+
+
 
 
 QA-GNN: Reasoning with Language Models and Knowledge Graphs
