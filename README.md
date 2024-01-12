@@ -360,6 +360,36 @@ DistilBERT and TinyBERT with four layers and was comparable with these models wi
 six layers. 
 
 
+SLM, with under 1.6 billion parameters, outperforms
+the few-shot GPT-4 on the PubMedQA dataset with Accuracy and  Macro-F1..
+https://github.com/zguo0525/Dr.LLaMA  
+Efficient fine-tuning  : Prefix Tuning and Low-rank Adaptation...
+Data Augmentation using LLMs:
+we used GPT-3.5 Turbo and GPT-4 to either rewrite
+existing medical question-answering pairs or generate
+new pairs from the training dataset (with a size of 450)
+with zero-shot prompting.
+Future works :
+knowledge distillation
+contrastive learning :help the model improve
+its ability to generalize to new and unseen data.
+
+Our research highlights the effectiveness of LLM-based
+generative data augmentation in enhancing domainspecific question answering datasets.
+
+However, instructing LLMs without domain knowledge, such as GPT-3.5-
+turbo, to generate new question-answer pairs resulted
+in decreased performance for fine-tuned smaller models.
+
+leveraging LLMs with domain-specific
+knowledge, like GPT-4, significantly improved the performance of fine-tuned models by generating valuable
+new training data. These findings underscore the importance of incorporating domain-specific knowledge when
+applying generative data augmentation techniques.
+
+
+/////////////
+
+
 QA-GNN: Reasoning with Language Models and Knowledge Graphs
 for Question Answering  
 https://arxiv.org/pdf/2104.06378.pdf
