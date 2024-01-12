@@ -443,3 +443,12 @@ intrcution  tuned   bert  for   qa ..
 ai   that  analyses  text  and  make  recoomendation  for   firendship  and dating..
 sytem of     two  slms   for   qa     ..
 
+/////////////////////further   reading papers   : 
+There is No Big Brother or Small Brother: Knowledge Infusion in
+Language Models for Link Prediction and Question Answering
+https://arxiv.org/pdf/2301.04013.pdf
+
+
+
+Test-Time Self-Adaptive Small Language Models for Question Answering
+https://arxiv.org/pdf/2310.13307.pdf
