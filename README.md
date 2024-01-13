@@ -1,3 +1,32 @@
+Сделай минимум 
+Отдельный файл с гипотезами
+Api /ml /slm
+Потом поверх 
+Учи как писать масштабируемый код и млопс 
+
+....
+Every day thing about 2 things : 
+  *How other beat older methods .
+  *how you can beat it .
+
+1 zero to bert.
+2 notebook break down. 
+2 rebuild with another model.
+3 aspect and benchmarks.  
+3 literature review of useful hints in papers . 
+
+3 experements of aspects methods assumptions. 
+
+
+.....
+Self analysis of slm: 
+Dataset:
+Instruction/mistake/ analysis of llm/resolution.  
+
+
+
+.....
+
 
 1 project (classification/ner/qa).
 2 choose aspect(efficiency)and benchmarks.
