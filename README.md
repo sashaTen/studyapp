@@ -481,3 +481,42 @@ https://arxiv.org/pdf/2301.04013.pdf
 
 Test-Time Self-Adaptive Small Language Models for Question Answering
 https://arxiv.org/pdf/2310.13307.pdf
+
+
+..........
+
+build some functionalities similar to basic e commerce project that you have build 
+..........
+
+
+Llms  can teach slms also different  congnitive types of work like planning . Or counterfactual planning.  Not only reasoning  or CoT. 
+
+.........
+"Aspect/context" : math reasoning as a kind of reasoning like tinyGSM..
+.....
+
+LMSYS CHAT 1M : 
+SAFE BENCHMARKS GENERATION 
+
+.....
+ 
+Longer steps of CoT helps for reasoning 
+
+......
+
+LLMS  for generations info extraction.  Survey 
+
+......
+Mini giants.
+.....
+You have foundation.  Like project or business.  And as you keep experimenting  you also collect lot of knowledges and  you can't implement  knowledges by analysing that big chunk. Try to filter and apply knowledge in existing big picture of project  or research  like snowball.  
+....
+Deepseek . Scaling laws.
+...
+
+Mind's mirrors.  Distilling self eval ability plus  CoT. 
+......
+
+TinyGSM : quality data is key
+
+....
